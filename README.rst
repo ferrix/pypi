@@ -7,11 +7,12 @@ Beanstalk.
 History
 -------
 
-`Steven Arcangeli` has made this nice private PyPI server pypicloud_ that
-uses S3 for the file backend. That is way cool. However the docker setup
-bundles a database and the settings did not come nicely from the env.
+`Steven Arcangeli`__ has made this nice private PyPI server pypicloud_
+that uses S3 for the file backend. That is way cool. However the docker
+setup bundles a database and the settings did not come nicely from the
+env.
 
-__ https://github.com/stevearc/
+.. __: https://github.com/stevearc/
 .. _pypicloud: https://github.com/mathcamp/pypicloud/
 
 Features
