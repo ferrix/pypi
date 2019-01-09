@@ -33,8 +33,8 @@ Prerequisites:
 
 Then execute::
 
-    git clone https://github.com/codetry/pypicloud-beanstalk
-    cd pypicloud-beanstalk
+    git clone https://github.com/ferrix/pypi
+    cd pypi
     pip install -r development.txt
     eb init -r REGION -p 'Python 2.7'
     eb create --database.engine postgres
